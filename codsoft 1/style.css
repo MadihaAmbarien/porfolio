@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Playwrite IT Moderna", cursive;
+    line-height: 1.8;
+    background-color:rgb(248, 233, 214);
+    
+}
+/*header*/
+header{
+    background-color: rgb(128, 175, 74);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.h1{
+    font-weight: bold;
+}
+.h2{
+    text-decoration: underline;
+}
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#about, #skills, #projects, #resume, #contact {
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+}
+
+#about img {
+    max-width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style-type: none;
+}
+
+#skills li {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 15px;
+    height: 250px; 
+    object-fit: cover;
+    align-items: center;
+}
+
+.project h3 {
+    margin-top: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-top: 5px solid #777;
+}
